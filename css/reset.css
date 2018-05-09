@@ -1,3 +1,13 @@
 /* margin reset */
 body, div, dl, dd, dt, ol, ul, li, h1, h2, h3, h4, h5, h6, input, form, legend,
 textarea, select, table, fieldset, p, button{margin: 0; padding: 0;}
+
+/* anchor reset */
+a {color: #273743; text-decoration: none;}
+a:hover {color: #390;}
+
+/* font reset */
+body, input, textarea, select, button, table {font-family: "Montserrat", sans-serif; font-size: 12px; line-height: 1.7;}
+
+/* Header tag reset */
+h1, h2, h3, h4, h5, h6 {font-size: 12px; font-weight: normal;}

@@ -34,6 +34,33 @@
 
 /* title absolute position */
 .title {}
-.title h1 {position: absolute; left: 400px; top: 158px;}
+.title h1 {position: absolute; left: 380px; top: 158px;}
 .title h1 a {background-color: #4aa8d4; font-size: 18px; display: block; color: #fff; text-transform: capitalize; padding: 5px 15px;}
-.title p {background-color: #2698cb; font-size: 28px; font-weight: 500px; color: #fff; padding: 5px 15px; text-transform: uppercase; position: absolute; left: 130px; top: 110px;}
+.title p {background-color: #2698cb; font-size: 28px; font-weight: 500; color: #fff; padding: 5px 15px; text-transform: uppercase; position: absolute; left: 130px; top: 110px;}
+
+/* icon */
+.icon {position: absolute; left: 375px; top: 230px;}
+.icon ul {overflow: hidden;}
+.icon li {float: left;}
+
+/* using background-image */
+/* .icon li a {width: 57px; height: 57px; display: block; margin: 0 3px; background-image: url(../img/icon1.gif);}
+.icon li.icon-tit1 a {background-image: url(../img/icon1.gif);}
+.icon li.icon-tit2 a {background-image: url(../img/icon1.gif);}
+.icon li.icon-tit3 a {background-image: url(../img/icon1.gif);}
+.icon li.icon-tit4 a {background-image: url(../img/icon1.gif);}
+.icon li.icon-tit1 a:hover {background-image: url(../img/icon1_on.gif);}
+.icon li.icon-tit2 a:hover {background-image: url(../img/icon1_on.gif);}
+.icon li.icon-tit3 a:hover {background-image: url(../img/icon1_on.gif);}
+.icon li.icon-tit4 a:hover {background-image: url(../img/icon1_on.gif);} */
+
+/* using image sprite */
+.icon li a {width: 57px; height: 57px; display: block; margin: 0 3px; background-image: url(../img/icon.png);}
+.icon li.icon-tit1 a {}
+.icon li.icon-tit2 a {background-position: 0 -120px;}
+.icon li.icon-tit3 a {background-position: 0 -240px;}
+.icon li.icon-tit4 a {background-position: 0 -360px;}
+.icon li.icon-tit1 a:hover {background-position: 0 -60px;}
+.icon li.icon-tit2 a:hover {background-position: 0 -180px;}
+.icon li.icon-tit3 a:hover {background-position: 0 -300px;}
+.icon li.icon-tit4 a:hover {background-position: 0 -420px;}

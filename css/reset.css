@@ -11,3 +11,9 @@ body, input, textarea, select, button, table {font-family: "Montserrat", sans-se
 
 /* Header tag reset */
 h1, h2, h3, h4, h5, h6 {font-size: 12px; font-weight: normal;}
+
+/* bullet reset */
+li, ol, ul {list-style: none;}
+
+/* IR effect */
+.ir {width: 0; height: 0; font-size: 0; line-height: 0; overflow: hidden; position: absolute; left: 0; top: 0;}

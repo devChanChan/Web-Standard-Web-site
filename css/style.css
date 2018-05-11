@@ -1,11 +1,12 @@
 /* layout */
-#wrap {width: 100%;}
+body {background: url(../img/body_bg.gif) #f1f4fb;}
+#wrap {}
 #header {
-  width: 100%; height: 327px;
+  height: 327px;
   background: url(../img/header_bg.jpg) repeat-x center top;
 }
-#contents {width: 100%; height: 400px; background-color: #888;}
-#footer {width: 100%; height: 200px; background-color: #777;}
+#contents {}
+#footer {height: 200px; background-color: #777;}
 
 /* Display Image
 1. HTML tag: <img alt=""> - 'meaningful image'  (alt: alternative words - *web standard*)
@@ -13,14 +14,14 @@
 3. CSS Image Sprites (IR effect)
 */
 
-/* container */
-.container {position: relative; width: 990px; background-color: rgba(255,255,255,0.4); margin: 0 auto;}
+/* container (middle layout) */
+.container {position: relative; width: 990px; margin: 0 auto;}
 
-/* contents layout */
-#cont-nav {width: 100%; height: 100px; background-color: #666;}
-#cont-tit {width: 100%; height: 100px; background-color: #555;}
-#cont-ban {width: 100%; height: 100px; background-color: #333;}
-#cont-cont {width: 100%; height: 100px; background-color: #222;}
+/* contents layout (whole layout) */
+#cont-nav {background: url(../img/cont_nav_bg.png) repeat-x;}
+#cont-tit {background-color: #fff;}
+#cont-ban {background-color: #dceff7;}
+#cont-cont {height: 100px; background-color: #222;}
 
 /* quick */
 .quick {text-align: right;}
@@ -64,3 +65,31 @@
 .icon li.icon-tit2 a:hover {background-position: 0 -180px;}
 .icon li.icon-tit3 a:hover {background-position: 0 -300px;}
 .icon li.icon-tit4 a:hover {background-position: 0 -420px;}
+
+/* nav */
+.nav {overflow: hidden; padding: 20px 0;}
+.nav div {float: left; width: 40%;}
+.nav div h3 {font-size: 18px; color: #25a2d0;}
+.nav div ul {overflow: hidden;}
+.nav div ul li {width: 50%; float: left;}
+.nav div ul li a {color: #333; padding: 3px;}
+.nav div ul li a:hover {background-color: #1a96d0; color: #fff;}
+.nav div.last {width: 20%;}
+.nav div.last ul li {width: 100%;}
+
+/* tit */
+.tit {}
+.tit h2 {text-align: center; font-size: 39px; color: #2c94c4; letter-spacing: 2px; font-family: 'Indie Flower', cursive; font-weight: bold;}
+.tit .btn {position: absolute; right: 0; top: 5px; display: block; width: 57px; height: 57px; background: url(../img/icon.png) 0 -540px;}
+.tit .btn:hover {background-position: 0 -480px;}
+
+/* ban */
+.ban {padding: 30px 0;}
+.ban ul {overflow: hidden;}
+.ban ul li {float: left; width: 330px; text-align: center; font-size: 0;}
+.ban ul li a img {border: 4px solid #dcdcdc;}
+.ban ul li a:hover img {border-color: #98bcdc;}
+.ban .ban-prev {position: absolute; left: -30px; top: 70px; width: 23px; height: 43px; background: url(../img/arrow.gif);}
+.ban .ban-prev:hover {background-position: -23px 0;}
+.ban .ban-next {position: absolute; right: -30px; top: 70px; width: 23px; height: 43px; background: url(../img/arrow.gif) 0 -43px;}
+.ban .ban-next:hover {background-position: -23px -43px;}

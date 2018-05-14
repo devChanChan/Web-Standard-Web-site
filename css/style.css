@@ -138,9 +138,9 @@ body {background: url(../img/body_bg.gif) #f1f4fb;}
 .notice3 {position: relative;}
 .notice3 h4 {font-size: 14px; color: #0093bd; font-weight: bold; margin-bottom: 3px;}
 .notice3 ul {}
-.notice3 li {position: relative; height: 60px; padding-left: 60px;}
+.notice3 li {position: relative; height: 52px; padding-left: 60px; padding-top: 8px;}
 .notice3 li a {}
 .notice3 li a img {position: absolute; left: 0; top: 0; border: 1px solid #390;}
 .notice3 li a strong {display: block; }
-.notice3 li a em {display: block; }
+.notice3 li a em {display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 .notice3 .more {position: absolute; right: 0; top: 5px; background: url(../img/more.png) no-repeat; width: 16px; height: 16px; display: block;}

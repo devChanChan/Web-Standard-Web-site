@@ -137,10 +137,28 @@ body {background: url(../img/body_bg.gif) #f1f4fb;}
 /* notice3 */
 .notice3 {position: relative;}
 .notice3 h4 {font-size: 14px; color: #0093bd; font-weight: bold; margin-bottom: 3px;}
-.notice3 ul {}
 .notice3 li {position: relative; height: 52px; padding-left: 60px; padding-top: 8px;}
-.notice3 li a {}
 .notice3 li a img {position: absolute; left: 0; top: 0; border: 1px solid #390;}
-.notice3 li a strong {display: block; }
+.notice3 li a strong {display: block;}
 .notice3 li a em {display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 .notice3 .more {position: absolute; right: 0; top: 5px; background: url(../img/more.png) no-repeat; width: 16px; height: 16px; display: block;}
+
+/* notice-hover */
+.notice-hover {position: relative;}
+.notice-hover h4 {font-size: 14px; color: #0093bd; font-weight: bold; margin-bottom: 3px;}
+.notice-hover ul {overflow: hidden;}
+.notice-hover li {float: left; width: 33.3333%; text-align: center;}
+.notice-hover li a {}
+.notice-hover li a span {position: relative; display: block; width: 90px; height: 90px; line-height: 90px; margin: 0 auto;}
+.notice-hover li a span img {width: 90px; height: 90px;}
+.notice-hover li a span em {visibility: hidden; position: absolute; left: 0; top: 0; background-color: #000; color: #fff; width: 100%; height: 100%;}
+.notice-hover li a span:hover em {visibility: visible;}
+.notice-hover li a strong {}
+.notice-hover .more {position: absolute; right: 0; top: 5px; background: url(../img/more.png) no-repeat; width: 16px; height: 16px; display: block;}
+
+/* hide contents
+   1. display: none;      <-> display: block;      layout X  Animation X
+   2. visibility: hidden; <-> visibility: visible; layout O  Animation O
+   3. opacity: 0;         <-> opacity: 1;          layout O  Animation O
+   4. ir effect (width: 0; height: 0;)             layout X
+*/

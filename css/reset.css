@@ -21,6 +21,9 @@ li, ol, ul {list-style: none;}
 /* italic reset */
 em, address {font-style: normal;}
 
+/* border reset */
+img {border: 0;}
+
 /* padding, margin setting */
 .pt00 {padding-top: 0px; !important;}
 .pt05 {padding-top: 5px; !important;}

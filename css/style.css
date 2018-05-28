@@ -148,12 +148,11 @@ body {background: url(../img/body_bg.gif) #f1f4fb;}
 .notice-hover h4 {font-size: 14px; color: #0093bd; font-weight: bold; margin-bottom: 3px;}
 .notice-hover ul {overflow: hidden;}
 .notice-hover li {float: left; width: 33.3333%; text-align: center;}
-.notice-hover li a {}
 .notice-hover li a span {position: relative; display: block; width: 90px; height: 90px; line-height: 90px; margin: 0 auto;}
 .notice-hover li a span img {width: 90px; height: 90px;}
-.notice-hover li a span em {visibility: hidden; position: absolute; left: 0; top: 0; background-color: #000; color: #fff; width: 100%; height: 100%;}
+.notice-hover li a span em {visibility: hidden; position: absolute; left: 0; top: 0; background: url(../img/dot2.png); color: #fff; width: 100%; height: 100%;}
 .notice-hover li a span:hover em {visibility: visible;}
-.notice-hover li a strong {}
+.notice-hover li a strong {display: block; padding-top: 3px;}
 .notice-hover .more {position: absolute; right: 0; top: 5px; background: url(../img/more.png) no-repeat; width: 16px; height: 16px; display: block;}
 
 /* hide contents
